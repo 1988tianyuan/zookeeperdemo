@@ -46,6 +46,11 @@ public class WatcherTest {
         Thread.sleep(Long.MAX_VALUE);
     }
 
+    @Test
+    public void test() throws Exception {
+
+    }
+
 
 
     @After
