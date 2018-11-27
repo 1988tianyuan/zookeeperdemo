@@ -1,3 +1,5 @@
+package servicediscovery;
+
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
@@ -9,7 +11,7 @@ import org.apache.curator.retry.ExponentialBackoffRetry;
 import java.util.List;
 import java.util.concurrent.ConcurrentSkipListSet;
 
-public class MainTest {
+public class ClientTest {
 
     private static final String zkConnectionString
             = "192.168.142.128:2181,192.168.142.131:2181,192.168.142.132:2181";
